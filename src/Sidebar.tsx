@@ -44,7 +44,7 @@ const Sidebar = (props: Props) => {
           style={props.activeTab === 'shipping-info' ? activeNavItem : navItem}
           onClick={() => props.onTabClick('shipping-info')}
         >
-          Shipping Info
+          Shipping Info!
         </li>
         <li
           style={props.activeTab === 'billing-info' ? activeNavItem : navItem}
