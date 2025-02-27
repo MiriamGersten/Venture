@@ -38,7 +38,7 @@ const Sidebar = (props: Props) => {
           style={props.activeTab === 'basic-info' ? activeNavItem : navItem}
           onClick={() => props.onTabClick('basic-info')}
         >
-          Basic Info
+          Basic Info!
         </li>
         <li
           style={props.activeTab === 'shipping-info' ? activeNavItem : navItem}
