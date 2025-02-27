@@ -66,7 +66,7 @@ const BillingInformation = () => {
   return (
     <Box sx={{ width: 700, padding: '20px' }}>
       <Typography style={{ color: '#808080', fontSize: 28 }}>
-        Billing Information
+        Billing Information!!
       </Typography>
       <FormGroup sx={{marginTop: 2}}>
         <FormControlLabel
